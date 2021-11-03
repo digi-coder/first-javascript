@@ -31,9 +31,20 @@ contentdiv.appendChild(contentp);
 
 container.appendChild(contentdiv);
 
-// const contenth1 = document.createElement('h1');
-// contenth1.classList.add('contenth1');
-// contenth1.textContent = 'I’m in a div';
+//buttons
 
-// container.appendChild(contenth1);
+//button2
+const btn2 = document.querySelector('#btn2');
+btn2.onclick = () => alert("Hello World");
+
+//button3
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', () => {
+  alert("Hello World");
+});
+
+//button4 with function 
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+  }
 
