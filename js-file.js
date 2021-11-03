@@ -7,12 +7,14 @@ content.textContent = 'Hey I’m red!';
 
 container.appendChild(content);
 
+
 const contenth3 = document.createElement('h3');
 contenth3.classList.add('contenth3');
 contenth3.style.color = "Blue";
 contenth3.textContent = 'I’m a blue h3!';
 
 container.appendChild(contenth3);
+
 
 const contentdiv = document.createElement('div');
 contentdiv.style.border = "2px solid black";
